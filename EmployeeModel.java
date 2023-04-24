@@ -29,6 +29,7 @@ public class EmployeeModel {
     }
 
     public static class Employee {
+        
         private int id;
         private String name;
         private String job;
