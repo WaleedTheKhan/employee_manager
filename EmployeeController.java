@@ -5,15 +5,16 @@
  */
 package employee_manager_Khan;
 
+import employee_manager_Khan.EmployeeModel.Employee;
+
 import java.io.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-
-import employee_manager_Khan.EmployeeModel.Employee;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -369,6 +370,7 @@ public class EmployeeController {
         } catch (FileNotFoundException ex) {
             System.out.println("Whoops! Failed to write existing data to CSV file: " + ex.getMessage());
         }
+        
     }//end handleBtnSaveToFile
 
 }//end class EmployeeController
