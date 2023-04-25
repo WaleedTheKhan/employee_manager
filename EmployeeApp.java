@@ -1,8 +1,7 @@
 /* Employee Management System 2023
  * Created by: Waleed Khan
  * Last modified: March 29, 2023
- * This is the Application class for a JavaFX FXML project for managing employees.
- */
+ * This is the Application class for a JavaFX FXML project for managing employees. */
 package employee_manager_Khan;
 
 import javafx.application.Application;
