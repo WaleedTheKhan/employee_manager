@@ -1,12 +1,11 @@
 /* Employee Management System 2023
  * Created by: Waleed Khan
  * Last modified: April 7, 2023
- * This is the Model class for a JavaFX FXML project for managing employees.
- */
+ * This is the Model class for a JavaFX FXML project for managing employees. */
 package employee_manager_Khan;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class EmployeeModel {
     
